@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: red;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 17pt;
+    padding: 5px;
+    width: 720px;
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+main{
+    border: black solid 1px;
+    border-top: none;
+    width: fit-content;
+    margin: auto;
+    padding: 17px;
+}
+
+#selecao, #semana, #dias{
+    display: flex;
+    margin: 5px;
+}
+
+#selecao{
+    background-color: grey;
+    width: fit-content;
+
+}
+select{
+    margin: 10px;
+}
+#selecao-ano{
+    width: 110px;
+}
+
+#semana{
+    justify-content: center;
+}
+#semana p{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    border: black solid 1px;
+}
+
+#dias{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 644px;
+    margin: auto;
+}
+#dias p{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+    border: black solid 1px;
+}

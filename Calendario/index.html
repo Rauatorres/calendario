@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calendário</h1>
+    <main>
+        <div id="selecao">
+            <!-- Os anos a serem selecionados na caixa de seleção de anos serão definidos através de script -->
+            <select id="selecao-ano" onchange="mostrarDias()">
+            </select>
+            
+            <select id="selecao-mes" onchange="mostrarDias()">
+            
+                <option value="0">Janeiro</option>
+                <option value="1">Fevereiro</option>
+                <option value="2">Março</option>
+                <option value="3">Abril</option>
+                <option value="4">Maio</option>
+                <option value="5">Junho</option>
+                <option value="6">Julho</option>
+                <option value="7">Agosto</option>
+                <option value="8">Setembro</option>
+                <option value="9">Outubro</option>
+                <option value="10">Novembro</option>
+                <option value="11">Dezembro</option>
+                
+            </select>
+        </div>
+        <div id="calendario">
+            <div id="semana">
+                <p id="0">Domingo</p>
+                <p id="1">Segunda</p>
+                <p id="2">Terça</p>
+                <p id="3">Quarta</p>
+                <p id="4">Quinta</p>
+                <p id="5">Sexta</p>
+                <p id="6">Sábado</p>
+            </div>
+            <div id="dias">
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
